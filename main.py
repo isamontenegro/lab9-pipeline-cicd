@@ -10,7 +10,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "mensagem": "API Lab9 funcionando!",
+       "mensagem": "API LAB9 funcionando na branch develop!",
         "status": "online"
     }
 
